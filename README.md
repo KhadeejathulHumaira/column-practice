@@ -32,7 +32,7 @@ Users should be able to:
 ![Desktop 1440px](../design/pc.png)
 
 ### Mobile View
-![Mobile 375px](../images/mobilephone.png)
+![Mobile 375px](./design/mobilephone.png)
 
 
 ### Links
