@@ -33,8 +33,6 @@ main{
     margin-top:0;
 }
 .subcontainer{
-    width:50%;
-    height:100%;
     display: flex;
     flex-direction: column;
     align-items: left;
@@ -52,7 +50,7 @@ main{
 }
 button{
     margin-top: 60px;
-    width:67%;
+    width:123px;
     padding:13px;
     border-radius: 50px;
     border:none;
@@ -93,9 +91,45 @@ button{
     margin-top:30px;
 
 }
-.attribution p{
+.attribution span{
     margin:0;
 }
 .attribution a{
     margin:0 5px;
+}
+
+@media (max-width:375px) {
+    body{
+        width:100%;
+        height:100vh;
+        padding: 10px;
+       
+    }
+    main{
+        margin-top: 30px;
+        width:70%;
+        flex-direction: column;
+        justify-content: stretch;
+        align-items: center;
+        border-radius: 15px;
+        overflow:auto;
+       
+    }
+   
+    button{
+        margin-top:30px;
+    }
+    .sedans-h1,.suvs-h1,.luxuary-h1{
+        margin:20px 0;
+    }
+    .attribution{
+        margin:0;
+        align-items: center;
+    }
+    .attribution span{
+        text-align:left;
+    }
+    .attribution a{
+        margin: 0;
+    }
 }
