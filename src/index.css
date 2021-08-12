@@ -56,6 +56,8 @@ button{
     border:none;
     font-size: 15px;
     font-family: 'Lexend Deca', sans-serif;
+    border: 1px solid hsla(0, 0%, 100%, 0.75); /* Learned new*/
+    transition: ease-in .3s /* Learned new*/
 }
 .sedans-btn{
     color:hsl(31, 77%, 52%);
